@@ -1,0 +1,131 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color:#ff4c68;
+}
+h1{
+
+  font-family: 'Fredoka One', cursive;
+  font-size:3.5rem;
+color: white;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  line-height: 3rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+p{
+  color: grey;
+}
+.container-fluid{
+  padding: 3% 12% 10%;
+}
+/* navigation bar */
+.navbar-brand{
+  font-size: 2.2 rem;
+  border: gold;
+  border-width: medium;
+  border-style:solid;
+  border-radius: 8px;
+  padding: 12px;
+}
+.navbar{
+  padding-bottom: 3.8em;
+}
+.nav-item{
+  font-size: 1.2rem;
+  padding: 0 18px;
+}
+.mybutton{
+  margin:4%  1% ;
+}
+.phone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/*features seaction*/
+
+#features{
+background-color: white;
+padding: 10% 15%;
+position:relative;
+}
+.feature-box{
+  text-align: center;
+}
+.icon{
+  color: #fac4cb;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 20%;
+  margin:20px;
+}
+#press{
+  background-color: #ff4c68;
+text-align:center;
+  padding-bottom: 3%;
+}
+.press-img{
+width: 15%;
+margin: 20px 20px 15px;
+}
+.carousel-item{
+padding: 8% 15%;
+}
+
+/* card */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.cards{
+margin-top: 20px;
+}
+@media (max-width:1100px) {
+  #title{
+    text-align: center;
+  }
+  .phone{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+    background-color:#ff4c68;
+    padding: 8% 15%;
+    color: white;
+    text-align: center;
+
+}
+.cta-heading{
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+#footer{
+  padding: 6% 10%;
+  text-align: center;
+}
+.social-icon {
+  margin: 10px;
+  margin-bottom: 10px;
+}
